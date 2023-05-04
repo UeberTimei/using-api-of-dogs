@@ -1,10 +1,7 @@
 body {
 	font-family: sans-serif;
     margin: 0;
-}
-
-h2 {
-	text-align: center;
+	max-height: 100%;
 }
 
 #header{
@@ -51,7 +48,28 @@ button:hover {
 
 img {
 	max-width: 500px;
-	height: auto;
     border-radius: 20px;
+	max-height: 500px;
+}
+@media (max-width: 600px) {
+	#header{
+		font-size: 20px;
+	}
 
+	label{
+		font-size: 25px;
+	}
+
+	select{
+		font-size: 20px;
+	}
+
+	button{
+		font-size: 30px;
+	}
+
+	img {
+		display: flex;
+		max-width: 90%;
+	}
 }

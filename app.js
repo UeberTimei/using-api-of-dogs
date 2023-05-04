@@ -2,15 +2,13 @@ const select = document.querySelector('#breed');
 const button = document.querySelector('#submit');
 const dogImage = document.querySelector('#dog-image');
 
-// Populate dropdown with list of breeds
 fetch('https://dog.ceo/api/breeds/list/all')
 	.then(response => response.json())
 	.then(data => {
 		for (const breed in data.message) {
 			const option = document.createElement('option');
 			option.value = breed;
-			option.textContent = breed;
-            console.log(option[0])
+			option.textContent = breed.slice(0, 1).toUpperCase() + breed.slice(1);
 			select.appendChild(option);
 		}
 	});
