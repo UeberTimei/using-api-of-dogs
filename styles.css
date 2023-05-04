@@ -55,6 +55,10 @@ img {
 	#header{
 		font-size: 20px;
 	}
+	form{
+		margin-left: 10px;
+		margin-right: 10px;
+	}
 
 	label{
 		font-size: 25px;
@@ -71,5 +75,6 @@ img {
 	img {
 		display: flex;
 		max-width: 90%;
+		max-height: 70vh;
 	}
 }
