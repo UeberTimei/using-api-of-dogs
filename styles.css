@@ -1,0 +1,57 @@
+body {
+	font-family: sans-serif;
+    margin: 0;
+}
+
+h2 {
+	text-align: center;
+}
+
+#header{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 0px;
+    background-color: #4CAF50;
+}
+
+form {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+
+label {
+    padding-top: 9px;
+	margin-right: 10px;
+}
+
+select {
+	margin-right: 10px;
+}
+
+button {
+	background-color: #4CAF50;
+	color: white;
+	padding: 10px 10px;
+	border: none;
+	border-radius: 7px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #3e8e41;
+}
+
+#dog-image {
+	display: flex;
+	justify-content: center;
+}
+
+img {
+	max-width: 500px;
+	height: auto;
+    border-radius: 20px;
+
+}
