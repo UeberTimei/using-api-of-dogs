@@ -13,6 +13,19 @@ body {
     background-color: #4CAF50;
 }
 
+.github {
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: #333;
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+	border-radius: 5px;
+	position: absolute;
+	top: 15px;
+	left: 10px;
+}
+
 form {
 	display: flex;
 	justify-content: center;
@@ -55,6 +68,13 @@ img {
 	#header{
 		font-size: 20px;
 	}
+
+	.github{
+		top: 24px;
+		left: 2px;
+		font-size: 15px;
+	}
+
 	form{
 		margin-left: 10px;
 		margin-right: 10px;
@@ -75,6 +95,6 @@ img {
 	img {
 		display: flex;
 		max-width: 90%;
-		max-height: 50vh;
+		max-height: 70vmax;
 	}
 }
